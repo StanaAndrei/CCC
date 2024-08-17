@@ -1,2 +1,2 @@
 # CCC
-A list of CCC pbs(trainings/officials)
+A list of CCC pbs(mainly [trainings](https://catcoder.codingcontest.org))
