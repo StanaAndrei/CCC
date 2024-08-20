@@ -8,8 +8,8 @@ void parse(const string &s, int &length, int &iterations) {
     string lengthStr = s.substr(lengthPos + 7, s.find(" ", lengthPos) - lengthPos - 7);
     string iterationsStr = s.substr(iterationsPos + 11, s.find(" ", iterationsPos) - iterationsPos - 11);
 
-    length = std::stoi(lengthStr);
-    iterations = std::stoi(iterationsStr);
+    length = stoi(lengthStr);
+    iterations = stoi(iterationsStr);
 }
 
 int main() {
